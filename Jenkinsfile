@@ -5,6 +5,10 @@ pipeline {
       steps {
         echo 'build compleated'
       }
+      stage('test') {
+      steps {
+        echo 'test compleated'
+      }
     }
 
   }
